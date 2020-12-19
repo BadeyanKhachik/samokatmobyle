@@ -1,0 +1,66 @@
+body{
+  background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595717362_14-p-odnotonnii-temnii-fon-17.jpg);
+}
+* {box-sizing: border-box;}
+.product-item {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: black;
+  padding: 30px 15px;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: white;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {background: #fc5a5a;}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;  
+}
+nav li {
+  display: inline;  
+}
+
+.tovar{
+  color: white;
+}
+.backToCatalog img{
+    width: 120px;
+    height: 80px;
+    
+}
+.backToCatalog img:hover {
+    opacity: 0.5;
+}
